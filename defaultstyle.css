@@ -1,0 +1,81 @@
+/*This the default style for the page feel free to change as you please.*/
+
+/*These are the rules for the body tag.
+This css rule will create the defaults for the page unless another rule
+    is specifed*/
+
+body{
+    background-color:black;
+    font-family:Helvetica, Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+    color:white;
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+    font-size: 30px;
+}
+
+ul.navigation_list{
+    display:flex;
+    list-style:none;
+    margin:auto;
+}
+
+li {
+    margin:auto;
+    color:white;
+}
+
+
+li.home{
+    color:rgb(49, 161, 1);
+}
+
+h2{
+    margin-left:90px;
+    margin-right:90px;
+    margin-bottom: 0px;
+    color:rgb(49, 161, 1);
+    padding:0px;
+}
+
+p{
+    text-indent: 50px;
+    margin-left:90px;
+    margin-right:50%;
+}
+
+h4{
+    margin-top: 0px;
+    margin-left: 90px;
+}
+
+a.llinks{
+    color: orangered;
+}
+
+a.projects{
+    text-decoration:none;
+    color:rgb(49, 161, 1);
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{
+    color:rgb(217, 255, 6);
+}
+
+a:visited{
+    text-decoration:none;
+}
+
+::-webkit-scrollbar{
+    color: black;
+}
+

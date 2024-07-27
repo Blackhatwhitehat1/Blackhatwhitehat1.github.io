@@ -1,0 +1,88 @@
+
+/*This just some default stuff that will reocure across the entire web page.*/
+/*The reason why I have diffent css files is so that I can easily change the
+    style of one page without affecting others.*/
+body{
+    background-color:black;
+    font-family:Helvetica, Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+    color:white;
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+    font-size: 30px;
+}
+
+ul.navigation_list{
+    display:flex;
+    list-style:none;
+    margin:auto;
+}
+
+li {
+    margin:auto;
+    color:white;
+}
+
+
+li.home{
+    color:rgb(49, 161, 1);
+}
+
+ul.articles_l{
+    display:flex;
+    list-style:none;
+    background-color:rgb(10,10,10);
+    padding:5px;
+}
+
+li.linklist{
+    margin-left:10px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+a.articles{
+    text-decoration:none;
+    color:rgb(49, 161, 1);
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{
+    color:rgb(217, 255, 6);
+}
+
+a:visited{
+    text-decoration:none;
+}
+
+a.fired{
+    display:inline;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+p.linklist{
+    margin: auto;
+}
+
+h2{
+    margin-left:15px;
+    color:rgb(49, 161, 1);
+}
+
+
+::-webkit-scrollbar{
+    color: black;
+}

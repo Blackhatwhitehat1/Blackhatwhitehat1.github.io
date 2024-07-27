@@ -1,0 +1,51 @@
+
+
+
+body{
+    background-color:black;
+    font-family:Helvetica, Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+    color:white;
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+    font-size: 30px;
+}
+
+ul.navigation_list{
+    display:flex;
+    list-style:none;
+    margin:auto;
+}
+
+li {
+    margin:auto;
+    color:white;
+}
+
+a.projects{
+    text-decoration:none;
+    color:rgb(49, 161, 1);
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{
+    color:rgb(217, 255, 6);
+}
+
+a:visited{
+    text-decoration:none;
+}
+
+p{
+    text-indent: 50px;
+    margin-left:90px;
+    margin-right:50%;
+}
