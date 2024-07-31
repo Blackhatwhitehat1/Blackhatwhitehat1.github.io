@@ -39,6 +39,13 @@ ul.articles_l{
     padding:5px;
 }
 
+ul.articles_w{
+    display:flex;
+    list-style:none;
+    background-color:black;
+    padding:5px;
+}
+
 li.linklist{
     margin-left:10px;
     margin-right:0px;
